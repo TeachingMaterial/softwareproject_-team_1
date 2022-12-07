@@ -33,7 +33,7 @@ The SRS lists all the system requirements including functional, non-functional, 
 
 ### **5.2 Non Functional Requirements**
 ----
-•	Speed: The system shall not take more than two seconds to load the page or refresh the screen.
+•	Speed: The system shall not take more than two seconds to load the page or refresh the screen. 
 
 •	Usability: The user shall not take more than one hour of training to attain their goals. The users shall not make an average of 2 errors after they complete their training. 
 
@@ -53,7 +53,7 @@ The SRS lists all the system requirements including functional, non-functional, 
 
 •	Scalability: The system should support at least 1,000,000 simultaneous visits.
 
-•	Performance: The system shall receive any email in not more than 10 seconds to reset the password. The user shall receive an OTP to the registered phone number or the authenticator app in not more than 10 seconds to login into the system. The system will generate a user id and an email id for each student based on the first letters of their names, and a four-digit number will be followed the two letters. [3]
+•	Performance: The system shall receive any email in not more than 10 seconds to reset the password. The user shall receive an OTP to the registered phone number or the authenticator app in not more than 10 seconds to login into the system. The system will generate a user id and an email id for each student based on the first letters of their names, and a four-digit number will be followed the two letters. 
 
 ### **7 Glossary**
 ----
