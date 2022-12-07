@@ -1,9 +1,12 @@
 # Phase 1 - Requirements Engineering
 
-# Introduction
+## **1. Introduction**
+---
+This markdown sheet describes phase 1 in creating student management system software for an online university. A student management system means that students can participate in educational activities such as attending classes, learning modules and tutorials, monitoring their progress and receiving feedback/results. Due to student management's facilities they are widely used in every educational institution such as schools and universities. The advantages of having a student management system software are students can access studies at any time from anywhere, reduce the workloads of institutions rather than maintaining physical storage and maintenance and improve productivity for lecturers by focusing on only teaching rather than maintaining and securing physical components. Therefore, this student management system is useful for every partipants in the educational institutions such as students, lecturers, insititution's director and more.
 
-I am going to introduce the topic here.....
 
+## **2. Table**
+---
 |Name|Git username|Gre username|Task|
 |---|---|---|---|
 |Harishanan Thevarjah|Harishanan|ht7998v@gre.ac.uk|Introduction, Software process model, User requirements definition, References|
@@ -14,7 +17,6 @@ I am going to introduce the topic here.....
 
 ## **2. Software process model**
 ---
-
 This is going to be an abstract of our software process to create student management system for the online university. This student management system final version going to produce on 23rd March will fulfill the requirements asked by our clients.
 
 To produce this student management system, our organization is going to use incremental software process model. It is a method of software development where an initial student management system will be designed, will be implemented and tested little by little and produce final student management system fulfilling most of the stakeholder’s requirements.
@@ -42,11 +44,11 @@ Figure 1 shows the workflow structure of our chosen software process model. The 
 In the above, incremental software model definition, the advantages of the incremental software process model and workflow structures are described. But there is one more responsibility to mention. It is the limitation of the incremental software model. They are frequent incoming new requirements can corrupt the software structure and the development process is not visible. The outcomes of these would lead to more complex and spending and the developed versions’ costs can’t be estimated due to the rapid development. To reduce the effects of our limitations, we software engineers try to get our system and user requirements in completeness and consistent and reduce the imprecision of requirements.
 
 
-
-
-## Reference
-
+## **8. Reference**
+---
 [1] C. Larman and V. R. Basili, "Iterative and incremental developments. a brief history," in Computer, vol. 36, no. 6, pp. 47-56, June 2003. Available at: https://ieeexplore.ieee.org/document/1204375 (Accessed on: 27th November 2022)
 
 
-![](gantt_chart.svg)
+## **9. Gantt chart**
+---
+![Gantt chart for planning project](gantt_chart.svg)
