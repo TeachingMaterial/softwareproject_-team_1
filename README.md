@@ -53,7 +53,7 @@ The SRS lists all the system requirements including functional, non-functional, 
 
 •	Scalability: The system should support at least 1,000,000 simultaneous visits.
 
-•	Performance: The system shall receive any email in not more than 10 seconds to reset the password. The user shall receive an OTP to the registered phone number or the authenticator app in not more than 10 seconds to login into the system. The system will generate a user id and an email id for each student based on the first letters of their names, and a four-digit number will be followed the two letters. 
+•	Performance: The system shall receive any email in not more than 10 seconds to reset the password. The user shall receive an OTP to the registered phone number or the authenticator app in not more than 10 seconds to login into the system. The system will generate a user id and an email id for each student based on the first letters of their names, and a four-digit number will be followed the two letters. [3]
 
 ### **7 Glossary**
 ----
@@ -89,3 +89,7 @@ The SRS lists all the system requirements including functional, non-functional, 
 •	User requirements: This means what the user expects the software to do.
 
 •	Waterfall process model: A software process model having a plan driven approach with individual phases of activities such as specification and development.
+
+### **References**
+----
+[3] Thayer, R.H., 2002. Software system engineering: A tutorial. Computer, 35(4), pp.68-73. Available at: https://ieeexplore.ieee.org/abstract/document/993773?casa_token=yAn9P3B2VHcAAAAA:xm_Nm-WJqTaIX7m28rd5fnx59BpA7IC5zkYcMfK6EW7byV8isK3lONyVUUdvzgQEq2OG9fBLUrU (Accessed on: 2nd December 2022)
