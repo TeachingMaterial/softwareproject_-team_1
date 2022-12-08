@@ -15,7 +15,7 @@ This markdown sheet describes phase 1 in creating student management system soft
 |Karim Borgi|kb9488|kb3825c@gre.ac.uk|Introduction, Systems requirements specification, possible risk and risk planning, References|
 
 
-## **2. Software process model**
+## **3. Software process model**
 ---
 This is going to be an abstract of our software process to create student management system for the online university. This student management system final version going to produce on 23rd March will fulfill the requirements asked by our clients.
 
@@ -51,4 +51,4 @@ In the above, incremental software model definition, the advantages of the incre
 
 ## **9. Gantt chart**
 ---
-![Gantt chart for planning project](gantt_chart.svg)
+![Gantt chart for planning project](Gantt1.jpg)
