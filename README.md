@@ -17,9 +17,6 @@ i am going to introduce the topic here
 |Karim Borgi|kb9488|kb3825c|Introduction, Systems requirements specification, possible risk and risk planning, References|
 
 
-
-
-
 ## **5. System Requirements Specification**
 ----
 
