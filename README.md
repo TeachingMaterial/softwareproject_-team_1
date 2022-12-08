@@ -1,7 +1,19 @@
 # Phase 1 - Requirements Engineering
 ---
+## **1. Introduction**
+---
+This markdown sheet describes phase 1 in creating student management system software for an online university. A student management system means that students can participate in educational activities such as attending classes, learning modules and tutorials, monitoring their progress and receiving feedback/results. Due to student management's facilities they are widely used in every educational institution such as schools and universities. The advantages of having a student management system software are students can access studies at any time from anywhere, reduce the workloads of institutions rather than maintaining physical storage and maintenance and improve productivity for lecturers by focusing on only teaching rather than maintaining and securing physical components. Therefore, this student management system is useful for every partipants in the educational institutions such as students, lecturers, insititution's director and more.
 
 
+
+## **2. Table**
+---
+|Name|Git username|Gre username|Task|
+|---|---|---|---|
+|Harishanan Thevarjah|Harishanan|ht7998v@gre.ac.uk|Introduction, Software process model, User requirements definition, References|
+|Nirmal Philips Tom|nirmalphilips2003|nt1217s@gre.ac.uk|Introduction, User requirements definition, Gantt chart, References|
+|Nandana Krishna|nk1121|nk1640r@gre.ac.uk|Introduction, Glossary, System requirements specification, References|
+|Karim Borgi|kb9488|kb3825c@gre.ac.uk|Introduction, Systems requirements specification, possible risk and risk planning, References|
 
 
 
@@ -224,10 +236,19 @@ The table above shows the highlighted project and product risks that are the mos
 
 ### **8. References**
 ----
+[1] C. Larman and V. R. Basili, "Iterative and incremental developments. a brief history," in Computer, vol. 36, no. 6, pp. 47-56, June 2003. Available at: https://ieeexplore.ieee.org/document/1204375 (Accessed on: 27th November 2022)
+
+[2] Maiden, N., 2008. User requirements and system requirements. IEEE Software, 25(2), pp.90-91. Available on: https://ieeexplore.ieee.org/abstract/document/4455639/authors#authors (Accessed on:1st December 2022)
+
 [3] Thayer, R.H., 2002. Software system engineering: A tutorial. Computer, 35(4), pp.68-73. Available at: https://ieeexplore.ieee.org/abstract/document/993773?casa_token=yAn9P3B2VHcAAAAA:xm_Nm-WJqTaIX7m28rd5fnx59BpA7IC5zkYcMfK6EW7byV8isK3lONyVUUdvzgQEq2OG9fBLUrU (Accessed on: 2nd December 2022)
 
 [4] Shahzad, B., Ullah, I. and Khan, N., 2009, December. Software risk identification and mitigation in incremental model. In 2009 International Conference on Information and Multimedia Technology (pp. 366-370). IEEE. Available at:https://ieeexplore.ieee.org/abstract/document/5381181 (Accessed on: 30th November 2022)
 
+
+
+## **9. Gantt chart**
+---
+![Gantt chart for planning project](gantt_chart.svg)
 
 
 
