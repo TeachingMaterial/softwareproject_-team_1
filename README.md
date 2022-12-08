@@ -248,7 +248,7 @@ The table above shows the highlighted project and product risks that are the mos
 
 ## **9. Gantt chart**
 ---
-![Gantt chart for planning project](gantt_chart.svg)
+![Gantt Chart](Gantt2.jpg)
 
 
 
