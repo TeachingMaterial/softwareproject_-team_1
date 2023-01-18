@@ -22,11 +22,7 @@ This markdown sheet describes phase 1 in creating student management system soft
 |Nandana Krishna|nk1121|nk1640r|Introduction, Glossary, System requirements specification, References|
 |Karim Borgi|kb9488|kb3825c|Introduction, Systems requirements specification, possible risk and risk planning, References|
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 712d3bf2375effbbdc8e7677576b1efdd2048074
 ## **3. Software process model**
 ---
 This is going to be an abstract of our software process to create student management system for the online university. This student management system final version going to produce on 23rd March will fulfill the requirements asked by our clients.
@@ -160,10 +156,5 @@ In figure 3, according to online university hierarchical position director is th
 
 ## **9. Gantt chart**
 ---
-<<<<<<< HEAD
-![Gantt chart for planning project](Gantt1.jpg)
-=======
 ![Gantt chart for planning project](gantt_chart.svg)
 
-
->>>>>>> 712d3bf2375effbbdc8e7677576b1efdd2048074
