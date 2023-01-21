@@ -5,10 +5,10 @@
 ---
 |Name|Git username|Gre username|Task|
 |---|---|---|---|
-|Harishanan Thevarjah|Harishanan|ht7998v@gre.ac.uk|Sequence diagram, Structural and design part in class diagram, Gantt chart|
+|Harishanan Thevarjah|Harishanan|ht7998v@gre.ac.uk|Sequence diagram, Class diagram, Gantt chart, Reference|
 |Nirmal Philips Tom|nirmalphilips2003|nt1217s@gre.ac.uk|UML case diagram, Overall architecture, Reference|
-|Nandana Krishna|nk1121|nk1640r@gre.ac.uk|Introduction, Overall architecture, Activity diagram, References|
-|Karim Borgi|kb9488|kb3825c@gre.ac.uk| Design part in class diagram, State chart diagram, References|  
+|Nandana Krishna|nk1121|nk1640r@gre.ac.uk|Introduction, Overall architecture, Activity diagram, Reference|
+|Karim Borgi|kb9488|kb3825c@gre.ac.uk| Class diagram, State chart diagram, Reference|  
 
 
 ## **5. Sequence diagram**
