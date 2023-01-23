@@ -77,7 +77,6 @@ From the figure 2(use case diagram) in appendix the use cases are described deta
 <br>
 
 
-
 ## **5. Sequence diagram**
 ---
 ### **5.1 Sequence diagram structure**
@@ -170,6 +169,14 @@ Finally, the numbers near the edges of connecting links show the multiplicity be
 By getting to know these class diagram, readers can understand the following behavioural UML diagrams in more details.   
 
 
+## 8.0 State Diagram
+---
+### 8.1 Chart Description and Structure
+---
+The state chart diagram in figure 12 is a representation of the different states and transitions that occur in a system. The diagram starts with the initial state of "login" where the system will ask for login credentials. If the credentials are incorrect, the system will transition to "incorrect_login" and display an error message before returning to the login state. If the credentials are correct, the system will move to the "OTP" state where it will ask for a one-time password. If the OTP is incorrect, the system will transition to the "incorrect_otp" state and display an error message before returning to the OTP state. If the OTP is correct, the system will transition to the "home" state.  
+From there, the user can view courses, timetable, student profile, announcements, and attendance. The user can also logout of the system from the home state. The user also has options to view files and videos, submit assignments, view employment opportunities, and make payments from the home state. The diagram also includes states for module leader tab, course leader tab and fees state for further options for the user.   
+
+
 ## **9. References**
 ---
 [2] Rosenberg, D. and Scott, K., 1999. Use case driven object modeling with UML (pp. 1-4). Reading: Addison-Wesley Professional. Available at: https://link.springer.com/book/10.1007/978-1-4302-0369-8 (Accessed on: 12th January 2023)
@@ -203,9 +210,6 @@ Figure 2: Use case diagram of student management system.
 <center>Figure 4: Class diagram for student management system </center>  
 <br>
 
-
-
-
-
-
-
+![State diagram](state%20diagram.png)  
+Figure 12: State diagram for student management system  
+<br>
