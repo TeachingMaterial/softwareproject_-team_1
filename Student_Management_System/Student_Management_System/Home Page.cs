@@ -19,12 +19,14 @@ namespace Student_Management_System
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            Student_Profile f = new Student_Profile();
+            f.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Timetable f = new Timetable();
+            f.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
