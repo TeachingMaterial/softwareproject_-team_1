@@ -46,14 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Module1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Module1.Designer.cs">
+      <DependentUpon>Module1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module2.Designer.cs">
+      <DependentUpon>Module2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module3.Designer.cs">
+      <DependentUpon>Module3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module4.Designer.cs">
+      <DependentUpon>Module4.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Module1.resx">
+      <DependentUpon>Module1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module2.resx">
+      <DependentUpon>Module2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module3.resx">
+      <DependentUpon>Module3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module4.resx">
+      <DependentUpon>Module4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
