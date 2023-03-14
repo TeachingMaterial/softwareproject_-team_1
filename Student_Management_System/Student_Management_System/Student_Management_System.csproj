@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.cs">
+    <Compile Include="compeng.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Module1.Designer.cs">
-      <DependentUpon>Module1.cs</DependentUpon>
+    <Compile Include="compeng.Designer.cs">
+      <DependentUpon>compeng.cs</DependentUpon>
     </Compile>
-    <Compile Include="Module2.cs">
+    <Compile Include="Mod1compeng.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Module2.Designer.cs">
-      <DependentUpon>Module2.cs</DependentUpon>
+    <Compile Include="Mod1compeng.Designer.cs">
+      <DependentUpon>Mod1compeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2compeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2compeng.Designer.cs">
+      <DependentUpon>Mod2compeng.cs</DependentUpon>
     </Compile>
     <Compile Include="Module3.cs">
       <SubType>Form</SubType>
@@ -72,11 +78,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Module1.resx">
-      <DependentUpon>Module1.cs</DependentUpon>
+    <EmbeddedResource Include="compeng.resx">
+      <DependentUpon>compeng.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Module2.resx">
-      <DependentUpon>Module2.cs</DependentUpon>
+    <EmbeddedResource Include="Mod1compeng.resx">
+      <DependentUpon>Mod1compeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2compeng.resx">
+      <DependentUpon>Mod2compeng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Module3.resx">
       <DependentUpon>Module3.cs</DependentUpon>
