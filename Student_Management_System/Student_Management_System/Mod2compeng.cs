@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Module2 : Form
+    public partial class Mod2compeng : Form
     {
-        public Module2()
+        public Mod2compeng()
         {
             InitializeComponent();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CE010 home = new CE010();
+            this.Hide();
+            home.Show();
+        }
+
+        private void Mod2compeng_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Module1 : Form
+    public partial class Mod1compeng : Form
     {
-        public Module1()
+        public Mod1compeng()
         {
             InitializeComponent();
         }
@@ -35,6 +35,13 @@ namespace Student_Management_System
         private void Module1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CE010 home = new CE010();
+            this.Hide();
+            home.Show();
         }
     }
 }

@@ -16,5 +16,12 @@ namespace Student_Management_System
         {
             InitializeComponent();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CE122 home = new CE122();
+            this.Hide();
+            home.Show();
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class Module4
+    partial class Mod2civieng
     {
         /// <summary>
         /// Required designer variable.
@@ -42,6 +42,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -191,11 +192,24 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Module Title";
             // 
-            // Module4
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button6.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(1048, 754);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(122, 43);
+            this.button6.TabIndex = 20;
+            this.button6.Text = "Back";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // Mod2civieng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1230, 834);
+            this.ClientSize = new System.Drawing.Size(1182, 853);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.label2);
@@ -205,7 +219,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Module4";
+            this.Name = "Mod2civieng";
             this.Text = "Module4";
             this.groupBox6.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
@@ -233,5 +247,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button6;
     }
 }

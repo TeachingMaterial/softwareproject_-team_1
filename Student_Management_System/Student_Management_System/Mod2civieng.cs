@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Module4 : Form
+    public partial class Mod2civieng : Form
     {
-        public Module4()
+        public Mod2civieng()
         {
             InitializeComponent();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            CV002 home = new CV002();
+            this.Hide();
+            home.Show();
         }
     }
 }

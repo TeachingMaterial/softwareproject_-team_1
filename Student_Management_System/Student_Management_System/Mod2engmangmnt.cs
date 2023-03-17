@@ -16,5 +16,12 @@ namespace Student_Management_System
         {
             InitializeComponent();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            EM121 home = new EM121();
+            this.Hide();
+            home.Show();
+        }
     }
 }

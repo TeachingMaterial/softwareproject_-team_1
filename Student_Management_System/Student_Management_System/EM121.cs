@@ -16,5 +16,19 @@ namespace Student_Management_System
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Mod1engmangmnt module = new Mod1engmangmnt();
+            this.Hide();
+            module.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Mod2engmangmnt module = new Mod2engmangmnt();
+            this.Hide();
+            module.Show();
+        }
     }
 }
