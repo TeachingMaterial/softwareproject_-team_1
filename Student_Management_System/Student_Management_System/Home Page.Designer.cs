@@ -96,7 +96,7 @@
             // attendance_button
             // 
             this.attendance_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.attendance_button.BackgroundImage = global::Student_Management_System.Properties.Resources.attendance_removebg_preview__1_1;
+            //this.attendance_button.BackgroundImage = global::Student_Management_System.Properties.Resources.attendance_removebg_preview__1_1;
             this.attendance_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.attendance_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.attendance_button.Location = new System.Drawing.Point(850, 175);
