@@ -46,14 +46,143 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CE010.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CE010.Designer.cs">
+      <DependentUpon>CE010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CE122.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CE122.Designer.cs">
+      <DependentUpon>CE122.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CV002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CV002.Designer.cs">
+      <DependentUpon>CV002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EE321.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EE321.Designer.cs">
+      <DependentUpon>EE321.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EM121.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EM121.Designer.cs">
+      <DependentUpon>EM121.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1chemeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1chemeng.Designer.cs">
+      <DependentUpon>Mod1chemeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1compeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1compeng.Designer.cs">
+      <DependentUpon>Mod1compeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1electeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1electeng.Designer.cs">
+      <DependentUpon>Mod1electeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1engmangmnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1engmangmnt.Designer.cs">
+      <DependentUpon>Mod1engmangmnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2chemeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2chemeng.Designer.cs">
+      <DependentUpon>Mod2chemeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2compeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2compeng.Designer.cs">
+      <DependentUpon>Mod2compeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1civieng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1civieng.Designer.cs">
+      <DependentUpon>Mod1civieng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2civieng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2civieng.Designer.cs">
+      <DependentUpon>Mod2civieng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2electeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2electeng.Designer.cs">
+      <DependentUpon>Mod2electeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2engmangmnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2engmangmnt.Designer.cs">
+      <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CE010.resx">
+      <DependentUpon>CE010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CE122.resx">
+      <DependentUpon>CE122.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CV002.resx">
+      <DependentUpon>CV002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EE321.resx">
+      <DependentUpon>EE321.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EM121.resx">
+      <DependentUpon>EM121.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1chemeng.resx">
+      <DependentUpon>Mod1chemeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1compeng.resx">
+      <DependentUpon>Mod1compeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1electeng.resx">
+      <DependentUpon>Mod1electeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1engmangmnt.resx">
+      <DependentUpon>Mod1engmangmnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2chemeng.resx">
+      <DependentUpon>Mod2chemeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2compeng.resx">
+      <DependentUpon>Mod2compeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1civieng.resx">
+      <DependentUpon>Mod1civieng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2civieng.resx">
+      <DependentUpon>Mod2civieng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2electeng.resx">
+      <DependentUpon>Mod2electeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2engmangmnt.resx">
+      <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
