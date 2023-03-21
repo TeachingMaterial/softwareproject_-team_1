@@ -56,5 +56,32 @@ namespace Student_Management_System
         {
 
         }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form1 f = new Form1();
+            this.Hide();
+            f.Show();
+        }
+
+        private void Student_Profile_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

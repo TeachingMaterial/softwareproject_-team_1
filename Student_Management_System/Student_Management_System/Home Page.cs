@@ -20,12 +20,14 @@ namespace Student_Management_System
         private void button6_Click(object sender, EventArgs e)
         {
             Student_Profile f = new Student_Profile();
+            this.Hide();
             f.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Timetable f = new Timetable();
+            this.Hide();
             f.Show();
         }
 
@@ -40,6 +42,33 @@ namespace Student_Management_System
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_MouseClick(object sender, MouseEventArgs e)
+        {
+            Fees f = new Fees();
+            this.Hide();
+            f.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
