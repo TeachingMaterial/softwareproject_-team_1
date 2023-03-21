@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page.Designer.cs">
+      <DependentUpon>Home Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Profile.Designer.cs">
+      <DependentUpon>Student Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timetable.Designer.cs">
+      <DependentUpon>Timetable.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page.resx">
+      <DependentUpon>Home Page.cs</DependentUpon>
+
     <Compile Include="CE010.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +216,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mod2engmangmnt.resx">
       <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -191,7 +226,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Student Profile.resx">
+      <DependentUpon>Student Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timetable.resx">
+      <DependentUpon>Timetable.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -204,6 +246,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online-learning-scaled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedagogy-massive-open-online-course-education-university-student-student.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-time-and-date-logo-illustration-computer-icons-time-management-time-attendance-clocks-schedule-calendar-text-rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\courses-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\courses-removebg-preview1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
