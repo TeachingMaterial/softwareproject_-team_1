@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
     <Compile Include="Fees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,7 +78,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home Page.resx">
       <DependentUpon>Home Page.cs</DependentUpon>
-
+    </EmbeddedResource>
     <Compile Include="CE010.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -216,7 +215,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mod2engmangmnt.resx">
       <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -300,6 +298,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\courses-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%292.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

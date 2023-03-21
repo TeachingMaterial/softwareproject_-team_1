@@ -73,6 +73,16 @@ namespace Student_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap attendance_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("attendance-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap courses_removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("courses-removebg-preview1", resourceCulture);
