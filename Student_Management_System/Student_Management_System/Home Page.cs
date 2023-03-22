@@ -55,7 +55,9 @@ namespace Student_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            CE010 f = new CE010();
+            this.Hide();
+            f.Show();
         }
 
         private void label1_Click_1(object sender, EventArgs e)

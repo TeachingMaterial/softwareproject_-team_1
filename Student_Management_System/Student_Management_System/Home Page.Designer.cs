@@ -1,4 +1,5 @@
 ﻿namespace Student_Management_System
+
 {
     partial class Form1
     {
