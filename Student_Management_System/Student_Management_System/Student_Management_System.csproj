@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +47,127 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Fees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Fees.Designer.cs">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home Page.Designer.cs">
+      <DependentUpon>Home Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Profile.Designer.cs">
+      <DependentUpon>Student Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Timetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Timetable.Designer.cs">
+      <DependentUpon>Timetable.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fees.resx">
+      <DependentUpon>Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home Page.resx">
+      <DependentUpon>Home Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="CE010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CE010.Designer.cs">
+      <DependentUpon>CE010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CE122.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CE122.Designer.cs">
+      <DependentUpon>CE122.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CV002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CV002.Designer.cs">
+      <DependentUpon>CV002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EE321.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EE321.Designer.cs">
+      <DependentUpon>EE321.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EM121.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EM121.Designer.cs">
+      <DependentUpon>EM121.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1chemeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1chemeng.Designer.cs">
+      <DependentUpon>Mod1chemeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1compeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1compeng.Designer.cs">
+      <DependentUpon>Mod1compeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1electeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1electeng.Designer.cs">
+      <DependentUpon>Mod1electeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1engmangmnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1engmangmnt.Designer.cs">
+      <DependentUpon>Mod1engmangmnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2chemeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2chemeng.Designer.cs">
+      <DependentUpon>Mod2chemeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2compeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2compeng.Designer.cs">
+      <DependentUpon>Mod2compeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1civieng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1civieng.Designer.cs">
+      <DependentUpon>Mod1civieng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2civieng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2civieng.Designer.cs">
+      <DependentUpon>Mod2civieng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2electeng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2electeng.Designer.cs">
+      <DependentUpon>Mod2electeng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2engmangmnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2engmangmnt.Designer.cs">
+      <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -66,6 +183,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +192,52 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OTPform.resx">
       <DependentUpon>OTPform.cs</DependentUpon>
+
+    <EmbeddedResource Include="CE010.resx">
+      <DependentUpon>CE010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CE122.resx">
+      <DependentUpon>CE122.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CV002.resx">
+      <DependentUpon>CV002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EE321.resx">
+      <DependentUpon>EE321.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EM121.resx">
+      <DependentUpon>EM121.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1chemeng.resx">
+      <DependentUpon>Mod1chemeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1compeng.resx">
+      <DependentUpon>Mod1compeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1electeng.resx">
+      <DependentUpon>Mod1electeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1engmangmnt.resx">
+      <DependentUpon>Mod1engmangmnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2chemeng.resx">
+      <DependentUpon>Mod2chemeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2compeng.resx">
+      <DependentUpon>Mod2compeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1civieng.resx">
+      <DependentUpon>Mod1civieng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2civieng.resx">
+      <DependentUpon>Mod2civieng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2electeng.resx">
+      <DependentUpon>Mod2electeng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2engmangmnt.resx">
+      <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,7 +247,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Student Profile.resx">
+      <DependentUpon>Student Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Timetable.resx">
+      <DependentUpon>Timetable.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -96,6 +267,110 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online-learning-scaled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedagogy-massive-open-online-course-education-university-student-student.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-time-and-date-logo-illustration-computer-icons-time-management-time-attendance-clocks-schedule-calendar-text-rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Timetable-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\courses-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\courses-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access">
+      <Guid>{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
