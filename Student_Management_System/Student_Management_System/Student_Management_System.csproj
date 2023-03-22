@@ -169,30 +169,8 @@
     <Compile Include="Mod2engmangmnt.Designer.cs">
       <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="OTPform.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OTPform.Designer.cs">
-      <DependentUpon>OTPform.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OTPform.resx">
-      <DependentUpon>OTPform.cs</DependentUpon>
-
     <EmbeddedResource Include="CE010.resx">
       <DependentUpon>CE010.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,7 +215,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mod2engmangmnt.resx">
       <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
