@@ -21,7 +21,21 @@ namespace Student_Management_System
         private void button2_MouseClick(object sender, MouseEventArgs e)
         {
             Form2 f = new Form2();
+            this.Close();
             f.Show();
+           
+        }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        { 
+            string username = Username.Text;
+            string password = Password.Text;
+            if (username != password)
+            {
+                OTPform x = new OTPform();
+                this.Hide();
+                x.Show();
+            }
         }
     }
 }
