@@ -67,6 +67,11 @@
     <Compile Include="Student Profile.Designer.cs">
       <DependentUpon>Student Profile.cs</DependentUpon>
     </Compile>
+    <Compile Include=".Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Timetable.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -241,6 +246,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include=".xsc">
+      <DependentUpon>.xsd</DependentUpon>
+    </None>
+    <None Include=".xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include=".xss">
+      <DependentUpon>.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -301,6 +317,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\attendance-removebg-preview %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -17,51 +17,11 @@ namespace Student_Management_System
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Profile_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_MouseClick(object sender, MouseEventArgs e)
-        {
-            Form1 f = new Form1();
+            Student_Profile profileForm = new Student_Profile();
             this.Hide();
-            f.Show();
+            profileForm.Show();
         }
 
         private void Student_Profile_Load(object sender, EventArgs e)
@@ -69,17 +29,14 @@ namespace Student_Management_System
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-
+            Home homeform = new Home();
+            this.Hide();
+            homeform.Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label20_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

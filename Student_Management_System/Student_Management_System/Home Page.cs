@@ -10,65 +10,45 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Coursebtn_Click(object sender, EventArgs e)
         {
-            Student_Profile f = new Student_Profile();
+
+        }
+
+        private void Timetablebtn_Click(object sender, EventArgs e)
+        {
+            Timetable timetableForm = new Timetable();
             this.Hide();
-            f.Show();
+            timetableForm.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Attendancebtn_Click(object sender, EventArgs e)
         {
-            Timetable f = new Timetable();
+
+        }
+
+        private void Feesbtn_Click(object sender, EventArgs e)
+        {
+            Fees feesForm = new Fees();
             this.Hide();
-            f.Show();
+            feesForm.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Profilebtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_MouseClick(object sender, MouseEventArgs e)
-        {
-            Fees f = new Fees();
+            Student_Profile profileForm = new Student_Profile();
             this.Hide();
-            f.Show();
+            profileForm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void Logoutbtn_Click(object sender, EventArgs e)
         {
 
         }

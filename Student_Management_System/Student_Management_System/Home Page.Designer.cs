@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -47,18 +47,18 @@
             this.label1.Size = new System.Drawing.Size(512, 74);
             this.label1.TabIndex = 6;
             this.label1.Text = "Learning Portal";
-            this.label1.Click += new System.EventHandler(this.label1_Click_2);
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.SystemColors.Menu;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(954, 630);
+            this.button6.Location = new System.Drawing.Point(950, 630);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(200, 100);
             this.button6.TabIndex = 7;
             this.button6.Text = "LOG OUT";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.Logoutbtn_Click);
             // 
             // Fees_button
             // 
@@ -75,8 +75,7 @@
             this.Fees_button.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Fees_button.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Fees_button.UseVisualStyleBackColor = false;
-            this.Fees_button.Click += new System.EventHandler(this.button4_Click);
-            this.Fees_button.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button4_MouseClick);
+            this.Fees_button.Click += new System.EventHandler(this.Feesbtn_Click);
             // 
             // studentpro_button
             // 
@@ -91,12 +90,12 @@
             this.studentpro_button.Text = "Student Profile";
             this.studentpro_button.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.studentpro_button.UseVisualStyleBackColor = false;
-            this.studentpro_button.Click += new System.EventHandler(this.button6_Click);
+            this.studentpro_button.Click += new System.EventHandler(this.Profilebtn_Click);
             // 
             // attendance_button
             // 
             this.attendance_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            //this.attendance_button.BackgroundImage = global::Student_Management_System.Properties.Resources.attendance_removebg_preview__1_1;
+            this.attendance_button.BackgroundImage = global::Student_Management_System.Properties.Resources.attendance_removebg_preview__1_;
             this.attendance_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.attendance_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.attendance_button.Location = new System.Drawing.Point(850, 175);
@@ -106,6 +105,7 @@
             this.attendance_button.Text = "Attendance";
             this.attendance_button.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.attendance_button.UseVisualStyleBackColor = false;
+            this.attendance_button.Click += new System.EventHandler(this.Attendancebtn_Click);
             // 
             // timetab_button
             // 
@@ -120,7 +120,7 @@
             this.timetab_button.Text = "Time table";
             this.timetab_button.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.timetab_button.UseVisualStyleBackColor = false;
-            this.timetab_button.Click += new System.EventHandler(this.button2_Click);
+            this.timetab_button.Click += new System.EventHandler(this.Timetablebtn_Click);
             // 
             // course_button
             // 
@@ -137,9 +137,9 @@
             this.course_button.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.course_button.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.course_button.UseVisualStyleBackColor = false;
-            this.course_button.Click += new System.EventHandler(this.button1_Click);
+            this.course_button.Click += new System.EventHandler(this.Coursebtn_Click);
             // 
-            // Form1
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,7 +152,7 @@
             this.Controls.Add(this.attendance_button);
             this.Controls.Add(this.timetab_button);
             this.Controls.Add(this.course_button);
-            this.Name = "Form1";
+            this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";
             this.ResumeLayout(false);

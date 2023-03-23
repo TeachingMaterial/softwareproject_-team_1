@@ -17,48 +17,31 @@ namespace Student_Management_System
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_MouseClick(object sender, MouseEventArgs e)
-        {
-            Form1 f = new Form1();
+            Home homeform = new Home();
             this.Hide();
-            f.Show();
+            homeform.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Paybtn_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        private void back_button4_Click(object sender, EventArgs e)
-        {
-            Form1 f = new Form1();
-            this.Hide();
-            f.Show();
         }
     }
 }
