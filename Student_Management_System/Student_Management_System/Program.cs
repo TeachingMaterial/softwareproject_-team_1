@@ -18,7 +18,7 @@ namespace Student_Management_System
             Application.SetCompatibleTextRenderingDefault(false);
 
             Application.Run(new Home());
-
+            
         }
     }
 }
