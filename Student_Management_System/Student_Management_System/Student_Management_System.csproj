@@ -47,6 +47,117 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="COMPENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COMPENG.Designer.cs">
+      <DependentUpon>COMPENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHEMENG.Designer.cs">
+      <DependentUpon>CHEMENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIVIENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIVIENG.Designer.cs">
+      <DependentUpon>CIVIENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ELECTENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ELECTENG.Designer.cs">
+      <DependentUpon>ELECTENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_CHEMENG.Designer.cs">
+      <DependentUpon>Mod1_CHEMENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_COMPENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_COMPENG.Designer.cs">
+      <DependentUpon>Mod1_COMPENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_ELECTENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_ELECTENG.Designer.cs">
+      <DependentUpon>Mod1_ELECTENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_CHEMENG.Designer.cs">
+      <DependentUpon>Mod2_CHEMENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_CIVIENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_CIVIENG.Designer.cs">
+      <DependentUpon>Mod1_CIVIENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_CIVIENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_CIVIENG.Designer.cs">
+      <DependentUpon>Mod2_CIVIENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_COMPENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_COMPENG.Designer.cs">
+      <DependentUpon>Mod2_COMPENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_ELECTENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_ELECTENG.Designer.cs">
+      <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="COMPENG.resx">
+      <DependentUpon>COMPENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHEMENG.resx">
+      <DependentUpon>CHEMENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIVIENG.resx">
+      <DependentUpon>CIVIENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELECTENG.resx">
+      <DependentUpon>ELECTENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_CHEMENG.resx">
+      <DependentUpon>Mod1_CHEMENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_COMPENG.resx">
+      <DependentUpon>Mod1_COMPENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_ELECTENG.resx">
+      <DependentUpon>Mod1_ELECTENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_CHEMENG.resx">
+      <DependentUpon>Mod2_CHEMENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_CIVIENG.resx">
+      <DependentUpon>Mod1_CIVIENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_CIVIENG.resx">
+      <DependentUpon>Mod2_CIVIENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_COMPENG.resx">
+      <DependentUpon>Mod2_COMPENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_ELECTENG.resx">
+      <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+
     <Compile Include="attendance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +203,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home Page.resx">
       <DependentUpon>Home Page.cs</DependentUpon>
+
     </EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
