@@ -155,8 +155,9 @@
     <EmbeddedResource Include="Mod2_COMPENG.resx">
       <DependentUpon>Mod2_COMPENG.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mod2_ELECTENG.resx">
-      <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+	  <EmbeddedResource Include="Mod2_ELECTENG.resx">
+		  <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+	  </EmbeddedResource>
 
     <Compile Include="attendance.cs">
       <SubType>Form</SubType>
