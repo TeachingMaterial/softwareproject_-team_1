@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Form1 : Form
+    public partial class Timetable : Form
     {
-        public Form1()
+        public Timetable()
         {
             InitializeComponent();
+        }
+
+        private void Backbtn_Click(object sender, EventArgs e)
+        {
+            Home homeform = new Home();
+            this.Hide();
+            homeform.Show();
         }
     }
 }
