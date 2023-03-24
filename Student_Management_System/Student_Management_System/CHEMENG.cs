@@ -10,23 +10,33 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class EM121 : Form
+    public partial class CHEMENG : Form
     {
-        public EM121()
+        public CHEMENG()
         {
             InitializeComponent();
         }
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            Mod1engmangmnt module = new Mod1engmangmnt();
+            Mod1chemeng module = new Mod1chemeng();
             this.Hide();
             module.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Mod2engmangmnt module = new Mod2engmangmnt();
+            Mod2_CHEMENG module = new Mod2_CHEMENG();
             this.Hide();
             module.Show();
         }

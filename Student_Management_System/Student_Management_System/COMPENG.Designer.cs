@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class CE010
+    partial class COMPENG
     {
         /// <summary>
         /// Required designer variable.

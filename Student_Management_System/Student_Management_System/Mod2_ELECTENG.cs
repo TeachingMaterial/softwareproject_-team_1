@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Mod2electeng : Form
+    public partial class Mod2_ELECTENG : Form
     {
-        public Mod2electeng()
+        public Mod2_ELECTENG()
         {
             InitializeComponent();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            EE321 home = new EE321();
+            ELECTENG home = new ELECTENG();
             this.Hide();
             home.Show();
         }

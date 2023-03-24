@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class Mod1compeng
+    partial class Mod1_COMPENG
     {
         /// <summary>
         /// Required designer variable.

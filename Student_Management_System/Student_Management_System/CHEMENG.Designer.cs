@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class CV002
+    partial class CHEMENG
     {
         /// <summary>
         /// Required designer variable.
@@ -46,7 +46,7 @@
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(12, 160);
+            this.textBox3.Location = new System.Drawing.Point(12, 157);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(181, 28);
             this.textBox3.TabIndex = 17;
@@ -56,7 +56,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(197, 95);
+            this.label1.Location = new System.Drawing.Point(197, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 16;
@@ -66,17 +66,18 @@
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(26, 90);
+            this.textBox2.Location = new System.Drawing.Point(26, 87);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(165, 27);
             this.textBox2.TabIndex = 15;
             this.textBox2.Text = "Programme Leader:";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(12, 393);
+            this.button4.Location = new System.Drawing.Point(12, 390);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(695, 39);
             this.button4.TabIndex = 14;
@@ -89,7 +90,7 @@
             this.groupBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.groupBox1.Controls.Add(this.richTextBox1);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(737, 101);
+            this.groupBox1.Location = new System.Drawing.Point(737, 98);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(345, 379);
             this.groupBox1.TabIndex = 13;
@@ -109,17 +110,17 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.textBox1.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 25);
+            this.textBox1.Location = new System.Drawing.Point(12, 22);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(541, 39);
             this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "Civil Engineering";
+            this.textBox1.Text = "Chemical Engineering";
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(12, 331);
+            this.button3.Location = new System.Drawing.Point(12, 328);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(695, 39);
             this.button3.TabIndex = 11;
@@ -132,7 +133,7 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(12, 269);
+            this.button2.Location = new System.Drawing.Point(12, 266);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(695, 39);
             this.button2.TabIndex = 10;
@@ -145,7 +146,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 208);
+            this.button1.Location = new System.Drawing.Point(12, 205);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(695, 39);
             this.button1.TabIndex = 9;
@@ -157,15 +158,15 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button5.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(957, 625);
+            this.button5.Location = new System.Drawing.Point(940, 652);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(122, 43);
-            this.button5.TabIndex = 18;
+            this.button5.TabIndex = 19;
             this.button5.Text = "Back";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // CV002
+            // CE122
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -180,8 +181,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "CV002";
-            this.Text = "CV002";
+            this.Name = "CE122";
+            this.Text = "CE122";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

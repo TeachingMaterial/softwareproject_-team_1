@@ -10,23 +10,28 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class EE321 : Form
+    public partial class CIVIENG : Form
     {
-        public EE321()
+        public CIVIENG()
         {
             InitializeComponent();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            Mod1electeng module = new Mod1electeng();
+            Mod1_CIVIENG module = new Mod1_CIVIENG();
             this.Hide();
             module.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Mod2electeng module = new Mod2electeng();
+            Mod2_CIVIENG module = new Mod2_CIVIENG();
             this.Hide();
             module.Show();
         }

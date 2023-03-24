@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class Mod2compeng
+    partial class Mod2_COMPENG
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -35,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -42,8 +44,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -52,14 +52,26 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button6.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(965, 722);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(122, 43);
+            this.button6.TabIndex = 30;
+            this.button6.Text = "Back";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.button4);
             this.groupBox6.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(794, 311);
+            this.groupBox6.Location = new System.Drawing.Point(758, 289);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(343, 214);
-            this.groupBox6.TabIndex = 17;
+            this.groupBox6.TabIndex = 29;
             this.groupBox6.TabStop = false;
             // 
             // button4
@@ -76,10 +88,10 @@
             // 
             this.groupBox5.Controls.Add(this.button3);
             this.groupBox5.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(74, 649);
+            this.groupBox5.Location = new System.Drawing.Point(38, 627);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(689, 152);
-            this.groupBox5.TabIndex = 16;
+            this.groupBox5.TabIndex = 28;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Tutorial Exercises";
             // 
@@ -96,40 +108,49 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(244, 73);
+            this.label2.Location = new System.Drawing.Point(208, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 16);
-            this.label2.TabIndex = 15;
+            this.label2.TabIndex = 27;
             this.label2.Text = "name";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(99, 67);
+            this.textBox1.Location = new System.Drawing.Point(63, 45);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(139, 27);
-            this.textBox1.TabIndex = 14;
+            this.textBox1.TabIndex = 26;
             this.textBox1.Text = "Module Leader:";
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.richTextBox1);
             this.groupBox4.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(791, 55);
+            this.groupBox4.Location = new System.Drawing.Point(755, 33);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(349, 214);
-            this.groupBox4.TabIndex = 13;
+            this.groupBox4.TabIndex = 25;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Announcements";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.Location = new System.Drawing.Point(3, 23);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(343, 188);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "";
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(74, 482);
+            this.groupBox3.Location = new System.Drawing.Point(38, 460);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(689, 152);
-            this.groupBox3.TabIndex = 12;
+            this.groupBox3.TabIndex = 24;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Resources and Materials";
             // 
@@ -147,10 +168,10 @@
             // 
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(74, 324);
+            this.groupBox2.Location = new System.Drawing.Point(38, 302);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(689, 152);
-            this.groupBox2.TabIndex = 11;
+            this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Courseworks and Exams";
             // 
@@ -168,10 +189,10 @@
             // 
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(77, 157);
+            this.groupBox1.Location = new System.Drawing.Point(41, 135);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(683, 161);
-            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lecture Notes";
             // 
@@ -189,38 +210,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(94, 4);
+            this.label1.Location = new System.Drawing.Point(58, -18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 27);
-            this.label1.TabIndex = 9;
+            this.label1.TabIndex = 21;
             this.label1.Text = "Module Title";
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button6.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(1037, 758);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(122, 43);
-            this.button6.TabIndex = 20;
-            this.button6.Text = "Back";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox1.Location = new System.Drawing.Point(3, 23);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(343, 188);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
-            // 
-            // Mod2compeng
+            // Mod2_COMPENG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 853);
+            this.ClientSize = new System.Drawing.Size(1142, 761);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -231,9 +231,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Mod2compeng";
-            this.Text = "Module2";
-            this.Load += new System.EventHandler(this.Mod2compeng_Load);
+            this.Name = "Mod2_COMPENG";
+            this.Text = "Mod2_COMPENG";
             this.groupBox6.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
@@ -247,6 +246,7 @@
 
         #endregion
 
+        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox5;
@@ -254,6 +254,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -261,7 +262,5 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

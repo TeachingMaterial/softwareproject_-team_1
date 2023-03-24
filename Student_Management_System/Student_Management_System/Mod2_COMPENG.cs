@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Mod1chemeng : Form
+    public partial class Mod2_COMPENG : Form
     {
-        public Mod1chemeng()
+        public Mod2_COMPENG()
         {
             InitializeComponent();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            CE122 home = new CE122();
+            COMPENG home = new COMPENG();
             this.Hide();
             home.Show();
         }

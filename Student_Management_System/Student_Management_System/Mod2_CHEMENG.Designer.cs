@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class Mod1electeng
+    partial class Mod2_CHEMENG
     {
         /// <summary>
         /// Required designer variable.
@@ -56,7 +56,7 @@
             // 
             this.groupBox6.Controls.Add(this.button4);
             this.groupBox6.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(726, 316);
+            this.groupBox6.Location = new System.Drawing.Point(730, 301);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(343, 214);
             this.groupBox6.TabIndex = 17;
@@ -76,7 +76,7 @@
             // 
             this.groupBox5.Controls.Add(this.button3);
             this.groupBox5.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(6, 654);
+            this.groupBox5.Location = new System.Drawing.Point(10, 639);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(689, 152);
             this.groupBox5.TabIndex = 16;
@@ -96,7 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(176, 78);
+            this.label2.Location = new System.Drawing.Point(180, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 16);
             this.label2.TabIndex = 15;
@@ -105,7 +105,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(31, 72);
+            this.textBox1.Location = new System.Drawing.Point(35, 57);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(139, 27);
             this.textBox1.TabIndex = 14;
@@ -115,7 +115,7 @@
             // 
             this.groupBox4.Controls.Add(this.richTextBox1);
             this.groupBox4.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(723, 60);
+            this.groupBox4.Location = new System.Drawing.Point(727, 45);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(349, 214);
             this.groupBox4.TabIndex = 13;
@@ -126,7 +126,7 @@
             // 
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(6, 487);
+            this.groupBox3.Location = new System.Drawing.Point(10, 472);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(689, 152);
             this.groupBox3.TabIndex = 12;
@@ -147,7 +147,7 @@
             // 
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(6, 329);
+            this.groupBox2.Location = new System.Drawing.Point(10, 314);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(689, 152);
             this.groupBox2.TabIndex = 11;
@@ -168,7 +168,7 @@
             // 
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Font = new System.Drawing.Font("HP Simplified Jpan", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 162);
+            this.groupBox1.Location = new System.Drawing.Point(13, 147);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(683, 161);
             this.groupBox1.TabIndex = 10;
@@ -189,7 +189,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 9);
+            this.label1.Location = new System.Drawing.Point(30, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(147, 27);
             this.label1.TabIndex = 9;
@@ -199,7 +199,7 @@
             // 
             this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button6.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(936, 749);
+            this.button6.Location = new System.Drawing.Point(951, 748);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(122, 43);
             this.button6.TabIndex = 20;
@@ -216,7 +216,7 @@
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
-            // Mod1electeng
+            // Mod2chemeng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,8 +231,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Mod1electeng";
-            this.Text = "Mod1electeng";
+            this.Name = "Mod2chemeng";
+            this.Text = "Mod2chemeng";
             this.groupBox6.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);

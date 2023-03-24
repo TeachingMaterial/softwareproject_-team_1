@@ -1,6 +1,6 @@
 ﻿namespace Student_Management_System
 {
-    partial class CE122
+    partial class ELECTENG
     {
         /// <summary>
         /// Required designer variable.
@@ -71,7 +71,6 @@
             this.textBox2.Size = new System.Drawing.Size(165, 27);
             this.textBox2.TabIndex = 15;
             this.textBox2.Text = "Programme Leader:";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button4
             // 
@@ -114,7 +113,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(541, 39);
             this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "Chemical Engineering";
+            this.textBox1.Text = "Electrical Engineering";
             // 
             // button3
             // 
@@ -158,15 +157,14 @@
             // 
             this.button5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button5.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(940, 652);
+            this.button5.Location = new System.Drawing.Point(946, 634);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(122, 43);
             this.button5.TabIndex = 19;
             this.button5.Text = "Back";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // CE122
+            // EE321
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -181,8 +179,8 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "CE122";
-            this.Text = "CE122";
+            this.Name = "EE321";
+            this.Text = "EE321";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

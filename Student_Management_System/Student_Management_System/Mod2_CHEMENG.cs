@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Mod1engmangmnt : Form
+    public partial class Mod2_CHEMENG : Form
     {
-        public Mod1engmangmnt()
+        public Mod2_CHEMENG()
         {
             InitializeComponent();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            EM121 home = new EM121();
+            CHEMENG home = new CHEMENG();
             this.Hide();
             home.Show();
         }

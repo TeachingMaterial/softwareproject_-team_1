@@ -10,23 +10,18 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Mod2compeng : Form
+    public partial class Mod1chemeng : Form
     {
-        public Mod2compeng()
+        public Mod1chemeng()
         {
             InitializeComponent();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            CE010 home = new CE010();
+            CHEMENG home = new CHEMENG();
             this.Hide();
             home.Show();
-        }
-
-        private void Mod2compeng_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
