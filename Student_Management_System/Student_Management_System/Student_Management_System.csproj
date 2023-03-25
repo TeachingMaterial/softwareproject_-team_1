@@ -48,11 +48,31 @@
   </ItemGroup>
   <ItemGroup>
 
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAccount.Designer.cs">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OTPform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OTPform.Designer.cs">
+      <DependentUpon>OTPform.cs</DependentUpon>
+
+
     <Compile Include="COMPENG.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="COMPENG.Designer.cs">
       <DependentUpon>COMPENG.cs</DependentUpon>
+
     </Compile>
     <Compile Include="CHEMENG.cs">
       <SubType>Form</SubType>
@@ -208,6 +228,15 @@
     </EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAccount.resx">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OTPform.resx">
+      <DependentUpon>OTPform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

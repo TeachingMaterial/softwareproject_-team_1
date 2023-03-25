@@ -1,4 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
+
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Student_Management_System.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
@@ -11,4 +12,5 @@
       <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\.accdb</Value>
     </Setting>
   </Settings>
+
 </SettingsFile>
