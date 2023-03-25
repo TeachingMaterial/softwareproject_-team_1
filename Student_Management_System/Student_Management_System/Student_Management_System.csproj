@@ -47,12 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_CHEMENG.Designer.cs">
+      <DependentUpon>Mod1_CHEMENG.cs</DependentUpon>
     </Compile>
     <Compile Include="NewAccount.cs">
       <SubType>Form</SubType>
@@ -63,17 +68,14 @@
     <Compile Include="OTPform.cs">
       <SubType>Form</SubType>
     </Compile>
-	  <Compile Include="OTPform.Designer.cs">
-		  <DependentUpon>OTPform.cs</DependentUpon>
-	  </Compile>
-
-
+    <Compile Include="OTPform.Designer.cs">
+      <DependentUpon>OTPform.cs</DependentUpon>
+    </Compile>
     <Compile Include="COMPENG.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="COMPENG.Designer.cs">
       <DependentUpon>COMPENG.cs</DependentUpon>
-
     </Compile>
     <Compile Include="CHEMENG.cs">
       <SubType>Form</SubType>
@@ -92,12 +94,6 @@
     </Compile>
     <Compile Include="ELECTENG.Designer.cs">
       <DependentUpon>ELECTENG.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod1_CHEMENG.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod1_CHEMENG.Designer.cs">
-      <DependentUpon>Mod1_CHEMENG.cs</DependentUpon>
     </Compile>
     <Compile Include="Mod1_COMPENG.cs">
       <SubType>Form</SubType>
@@ -176,10 +172,9 @@
     <EmbeddedResource Include="Mod2_COMPENG.resx">
       <DependentUpon>Mod2_COMPENG.cs</DependentUpon>
     </EmbeddedResource>
-	  <EmbeddedResource Include="Mod2_ELECTENG.resx">
-		  <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
-	  </EmbeddedResource>
-
+    <EmbeddedResource Include="Mod2_ELECTENG.resx">
+      <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="attendance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,7 +220,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Home Page.resx">
       <DependentUpon>Home Page.cs</DependentUpon>
-
     </EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

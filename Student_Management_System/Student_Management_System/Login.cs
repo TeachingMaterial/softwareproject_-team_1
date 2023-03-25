@@ -34,5 +34,10 @@ namespace Student_Management_System
             NewAccount x= new NewAccount();
             x.Show();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

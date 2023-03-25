@@ -29,7 +29,7 @@ namespace Student_Management_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Mod1chemeng module = new Mod1chemeng();
+            Mod1_CHEMENG module = new Mod1_CHEMENG();
             this.Hide();
             module.Show();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Mod1chemeng : Form
+    public partial class Mod1_CHEMENG : Form
     {
-        public Mod1chemeng()
+        public Mod1_CHEMENG()
         {
             InitializeComponent();
         }

@@ -35,7 +35,7 @@
             // 
             // HomePageLink
             // 
-            this.HomePageLink.Location = new System.Drawing.Point(326, 246);
+            this.HomePageLink.Location = new System.Drawing.Point(703, 414);
             this.HomePageLink.Name = "HomePageLink";
             this.HomePageLink.Size = new System.Drawing.Size(135, 38);
             this.HomePageLink.TabIndex = 0;
@@ -45,7 +45,7 @@
             // OTPprompt
             // 
             this.OTPprompt.AutoSize = true;
-            this.OTPprompt.Location = new System.Drawing.Point(23, 173);
+            this.OTPprompt.Location = new System.Drawing.Point(400, 341);
             this.OTPprompt.Name = "OTPprompt";
             this.OTPprompt.Size = new System.Drawing.Size(274, 16);
             this.OTPprompt.TabIndex = 1;
@@ -53,7 +53,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(326, 167);
+            this.textBox1.Location = new System.Drawing.Point(703, 335);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(135, 22);
             this.textBox1.TabIndex = 2;
@@ -62,7 +62,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 744);
+            this.ClientSize = new System.Drawing.Size(1182, 853);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.OTPprompt);
             this.Controls.Add(this.HomePageLink);
