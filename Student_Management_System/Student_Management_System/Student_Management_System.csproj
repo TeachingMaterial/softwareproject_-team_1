@@ -63,8 +63,9 @@
     <Compile Include="OTPform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OTPform.Designer.cs">
-      <DependentUpon>OTPform.cs</DependentUpon>
+	  <Compile Include="OTPform.Designer.cs">
+		  <DependentUpon>OTPform.cs</DependentUpon>
+	  </Compile>
 
 
     <Compile Include="COMPENG.cs">
