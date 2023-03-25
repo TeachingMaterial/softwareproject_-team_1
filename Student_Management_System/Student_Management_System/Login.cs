@@ -10,32 +10,29 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
-      
         }
 
-        private void button2_MouseClick(object sender, MouseEventArgs e)
+        private void Login_Load(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
-            this.Close();
-            f.Show();
-           
+
         }
 
-        private void button1_MouseClick(object sender, MouseEventArgs e)
-        { 
-            string username = Username.Text;
-            string password = Password.Text;
-            if (username != password)
-            {
-                OTPform x = new OTPform();
-                this.Hide();
-                x.Show();
-            }
+        private void LoginButton_MouseClick(object sender, MouseEventArgs e)
+        {
+            OTPform f= new OTPform();
+            f.Show();
+            this.Hide();
+        }
+
+        private void NewAccButton_MouseClick(object sender, MouseEventArgs e)
+        {
+            NewAccount x= new NewAccount();
+            x.Show();
         }
     }
 }
