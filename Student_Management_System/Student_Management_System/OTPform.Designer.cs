@@ -44,6 +44,7 @@
             this.HomePageLink.TabIndex = 0;
             this.HomePageLink.Text = "Login";
             this.HomePageLink.UseVisualStyleBackColor = false;
+            this.HomePageLink.Click += new System.EventHandler(this.HomePageLink_Click);
             // 
             // OTPprompt
             // 
@@ -62,7 +63,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(142, 22);
             this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // OTPform
             // 

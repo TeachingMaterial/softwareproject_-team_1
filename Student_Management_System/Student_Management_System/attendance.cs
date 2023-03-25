@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace Student_Management_System
 {
-    public partial class Form1 : Form
+    public partial class Attendance : Form
     {
-        public Form1()
+        public Attendance()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Home homeform = new Home();
+            this.Hide();
+            homeform.Show();
         }
+
+
     }
 }

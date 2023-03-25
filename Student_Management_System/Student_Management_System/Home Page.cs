@@ -19,7 +19,9 @@ namespace Student_Management_System
 
         private void Coursebtn_Click(object sender, EventArgs e)
         {
-
+            COMPENG course1= new COMPENG();
+            this.Hide();
+            course1.Show();
         }
 
         private void Timetablebtn_Click(object sender, EventArgs e)
@@ -31,7 +33,9 @@ namespace Student_Management_System
 
         private void Attendancebtn_Click(object sender, EventArgs e)
         {
-
+            Attendance attendanceForm = new Attendance();
+            this.Hide();
+            attendanceForm.Show();
         }
 
         private void Feesbtn_Click(object sender, EventArgs e)
@@ -50,12 +54,9 @@ namespace Student_Management_System
 
         private void Logoutbtn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Home_Load(object sender, EventArgs e)
-        {
-
+            Login loginForm = new Login();
+            this.Hide();
+            loginForm.Show();
         }
     }
 }

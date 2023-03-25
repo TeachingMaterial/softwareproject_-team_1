@@ -17,9 +17,11 @@ namespace Student_Management_System
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void HomePageLink_Click(object sender, EventArgs e)
         {
-
+            Home homeform = new Home();
+            this.Hide();
+            homeform.Show();
         }
     }
 }

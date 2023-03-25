@@ -155,7 +155,6 @@
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";
-            this.Load += new System.EventHandler(this.Home_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
