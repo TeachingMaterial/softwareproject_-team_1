@@ -22,14 +22,5 @@ namespace Student_Management_System.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        public string students11ConnectionString {
-            get {
-                return ((string)(this["students11ConnectionString"]));
-            }
-        }
     }
 }
