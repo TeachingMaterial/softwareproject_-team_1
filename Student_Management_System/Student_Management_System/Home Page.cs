@@ -52,5 +52,10 @@ namespace Student_Management_System
         {
 
         }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

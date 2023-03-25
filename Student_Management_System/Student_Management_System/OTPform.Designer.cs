@@ -38,7 +38,7 @@
             // 
             this.HomePageLink.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.HomePageLink.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HomePageLink.Location = new System.Drawing.Point(668, 490);
+            this.HomePageLink.Location = new System.Drawing.Point(682, 491);
             this.HomePageLink.Name = "HomePageLink";
             this.HomePageLink.Size = new System.Drawing.Size(154, 53);
             this.HomePageLink.TabIndex = 0;
@@ -50,7 +50,7 @@
             this.OTPprompt.AutoSize = true;
             this.OTPprompt.BackColor = System.Drawing.Color.White;
             this.OTPprompt.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OTPprompt.Location = new System.Drawing.Point(409, 425);
+            this.OTPprompt.Location = new System.Drawing.Point(423, 426);
             this.OTPprompt.Name = "OTPprompt";
             this.OTPprompt.Size = new System.Drawing.Size(332, 17);
             this.OTPprompt.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(778, 423);
+            this.textBox1.Location = new System.Drawing.Point(792, 424);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(142, 22);
             this.textBox1.TabIndex = 2;
