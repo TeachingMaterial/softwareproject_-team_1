@@ -26,8 +26,6 @@ namespace Student_Management_System.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"C:\\Users\\karim\\Documents\\Uni Work\\" +
-            "Software Engineering\\students11.accdb\"")]
         public string students11ConnectionString {
             get {
                 return ((string)(this["students11ConnectionString"]));
