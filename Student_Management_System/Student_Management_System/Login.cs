@@ -39,5 +39,10 @@ namespace Student_Management_System
         {
 
         }
+
+        private void NewAccButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

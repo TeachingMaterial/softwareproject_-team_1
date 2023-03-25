@@ -82,7 +82,7 @@
             this.LoginButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.LoginButton.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LoginButton.Location = new System.Drawing.Point(660, 480);
+            this.LoginButton.Location = new System.Drawing.Point(675, 480);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(133, 37);
             this.LoginButton.TabIndex = 4;
@@ -97,10 +97,11 @@
             this.NewAccButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.NewAccButton.Location = new System.Drawing.Point(458, 480);
             this.NewAccButton.Name = "NewAccButton";
-            this.NewAccButton.Size = new System.Drawing.Size(133, 37);
+            this.NewAccButton.Size = new System.Drawing.Size(169, 37);
             this.NewAccButton.TabIndex = 5;
             this.NewAccButton.Text = "Create Account";
             this.NewAccButton.UseVisualStyleBackColor = false;
+            this.NewAccButton.Click += new System.EventHandler(this.NewAccButton_Click);
             this.NewAccButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NewAccButton_MouseClick);
             // 
             // Login
