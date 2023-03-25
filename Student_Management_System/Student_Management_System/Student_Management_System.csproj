@@ -47,7 +47,140 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_CHEMENG.Designer.cs">
+      <DependentUpon>Mod1_CHEMENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAccount.Designer.cs">
+      <DependentUpon>NewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OTPform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OTPform.Designer.cs">
+      <DependentUpon>OTPform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="COMPENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COMPENG.Designer.cs">
+      <DependentUpon>COMPENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHEMENG.Designer.cs">
+      <DependentUpon>CHEMENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIVIENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIVIENG.Designer.cs">
+      <DependentUpon>CIVIENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ELECTENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ELECTENG.Designer.cs">
+      <DependentUpon>ELECTENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_COMPENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_COMPENG.Designer.cs">
+      <DependentUpon>Mod1_COMPENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_ELECTENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_ELECTENG.Designer.cs">
+      <DependentUpon>Mod1_ELECTENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_CHEMENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_CHEMENG.Designer.cs">
+      <DependentUpon>Mod2_CHEMENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod1_CIVIENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod1_CIVIENG.Designer.cs">
+      <DependentUpon>Mod1_CIVIENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_CIVIENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_CIVIENG.Designer.cs">
+      <DependentUpon>Mod2_CIVIENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_COMPENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_COMPENG.Designer.cs">
+      <DependentUpon>Mod2_COMPENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mod2_ELECTENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mod2_ELECTENG.Designer.cs">
+      <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="COMPENG.resx">
+      <DependentUpon>COMPENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHEMENG.resx">
+      <DependentUpon>CHEMENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIVIENG.resx">
+      <DependentUpon>CIVIENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELECTENG.resx">
+      <DependentUpon>ELECTENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_CHEMENG.resx">
+      <DependentUpon>Mod1_CHEMENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_COMPENG.resx">
+      <DependentUpon>Mod1_COMPENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_ELECTENG.resx">
+      <DependentUpon>Mod1_ELECTENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_CHEMENG.resx">
+      <DependentUpon>Mod2_CHEMENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod1_CIVIENG.resx">
+      <DependentUpon>Mod1_CIVIENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_CIVIENG.resx">
+      <DependentUpon>Mod2_CIVIENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_COMPENG.resx">
+      <DependentUpon>Mod2_COMPENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mod2_ELECTENG.resx">
+      <DependentUpon>Mod2_ELECTENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendance.Designer.cs">
+      <DependentUpon>attendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,155 +201,36 @@
     <Compile Include="Student Profile.Designer.cs">
       <DependentUpon>Student Profile.cs</DependentUpon>
     </Compile>
+    <Compile Include=".Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Timetable.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Timetable.Designer.cs">
       <DependentUpon>Timetable.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="attendance.resx">
+      <DependentUpon>attendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fees.resx">
       <DependentUpon>Fees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home Page.resx">
       <DependentUpon>Home Page.cs</DependentUpon>
-
-    <Compile Include="CE010.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CE010.Designer.cs">
-      <DependentUpon>CE010.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CE122.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CE122.Designer.cs">
-      <DependentUpon>CE122.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CV002.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CV002.Designer.cs">
-      <DependentUpon>CV002.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EE321.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EE321.Designer.cs">
-      <DependentUpon>EE321.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EM121.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EM121.Designer.cs">
-      <DependentUpon>EM121.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod1chemeng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod1chemeng.Designer.cs">
-      <DependentUpon>Mod1chemeng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod1compeng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod1compeng.Designer.cs">
-      <DependentUpon>Mod1compeng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod1electeng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod1electeng.Designer.cs">
-      <DependentUpon>Mod1electeng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod1engmangmnt.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod1engmangmnt.Designer.cs">
-      <DependentUpon>Mod1engmangmnt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod2chemeng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod2chemeng.Designer.cs">
-      <DependentUpon>Mod2chemeng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod2compeng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod2compeng.Designer.cs">
-      <DependentUpon>Mod2compeng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod1civieng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod1civieng.Designer.cs">
-      <DependentUpon>Mod1civieng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod2civieng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod2civieng.Designer.cs">
-      <DependentUpon>Mod2civieng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod2electeng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod2electeng.Designer.cs">
-      <DependentUpon>Mod2electeng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Mod2engmangmnt.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mod2engmangmnt.Designer.cs">
-      <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
-    </Compile>
+    </EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CE010.resx">
-      <DependentUpon>CE010.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CE122.resx">
-      <DependentUpon>CE122.cs</DependentUpon>
+    <EmbeddedResource Include="NewAccount.resx">
+      <DependentUpon>NewAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CV002.resx">
-      <DependentUpon>CV002.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EE321.resx">
-      <DependentUpon>EE321.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EM121.resx">
-      <DependentUpon>EM121.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod1chemeng.resx">
-      <DependentUpon>Mod1chemeng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod1compeng.resx">
-      <DependentUpon>Mod1compeng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod1electeng.resx">
-      <DependentUpon>Mod1electeng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod1engmangmnt.resx">
-      <DependentUpon>Mod1engmangmnt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod2chemeng.resx">
-      <DependentUpon>Mod2chemeng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod2compeng.resx">
-      <DependentUpon>Mod2compeng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod1civieng.resx">
-      <DependentUpon>Mod1civieng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod2civieng.resx">
-      <DependentUpon>Mod2civieng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod2electeng.resx">
-      <DependentUpon>Mod2electeng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mod2engmangmnt.resx">
-      <DependentUpon>Mod2engmangmnt.cs</DependentUpon>
-
+    <EmbeddedResource Include="OTPform.resx">
+      <DependentUpon>OTPform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -243,6 +257,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include=".xsc">
+      <DependentUpon>.xsd</DependentUpon>
+    </None>
+    <None Include=".xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include=".xss">
+      <DependentUpon>.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -300,6 +325,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\courses-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance-removebg-preview %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
