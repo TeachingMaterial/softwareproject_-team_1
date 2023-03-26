@@ -52,7 +52,7 @@
             // 
             this.button6.BackColor = System.Drawing.SystemColors.Menu;
             this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(987, 710);
+            this.button6.Location = new System.Drawing.Point(987, 784);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(183, 57);
             this.button6.TabIndex = 7;

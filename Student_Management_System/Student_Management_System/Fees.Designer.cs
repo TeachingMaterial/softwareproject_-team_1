@@ -86,7 +86,7 @@
             this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.back_button4.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.back_button4.Location = new System.Drawing.Point(970, 641);
+            this.back_button4.Location = new System.Drawing.Point(970, 741);
             this.back_button4.Name = "back_button4";
             this.back_button4.Size = new System.Drawing.Size(200, 100);
             this.back_button4.TabIndex = 13;

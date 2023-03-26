@@ -196,7 +196,7 @@
             this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.back_button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.back_button4.Location = new System.Drawing.Point(975, 650);
+            this.back_button4.Location = new System.Drawing.Point(970, 740);
             this.back_button4.Name = "back_button4";
             this.back_button4.Size = new System.Drawing.Size(200, 100);
             this.back_button4.TabIndex = 12;
@@ -339,7 +339,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1182, 753);
+            this.ClientSize = new System.Drawing.Size(1182, 853);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox9);

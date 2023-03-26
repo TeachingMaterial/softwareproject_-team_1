@@ -117,7 +117,7 @@
             this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.back_button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.back_button4.Location = new System.Drawing.Point(970, 641);
+            this.back_button4.Location = new System.Drawing.Point(970, 741);
             this.back_button4.Name = "back_button4";
             this.back_button4.Size = new System.Drawing.Size(200, 100);
             this.back_button4.TabIndex = 13;
@@ -129,7 +129,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(80, 600);
+            this.label2.Location = new System.Drawing.Point(80, 639);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(270, 35);
             this.label2.TabIndex = 14;
@@ -137,11 +137,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(100, 640);
+            this.textBox1.Location = new System.Drawing.Point(86, 687);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(749, 100);
+            this.textBox1.Size = new System.Drawing.Size(800, 150);
             this.textBox1.TabIndex = 15;
             // 
             // dateTimePicker1
@@ -156,7 +156,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1182, 753);
+            this.ClientSize = new System.Drawing.Size(1182, 853);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
