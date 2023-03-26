@@ -65,6 +65,7 @@
     </Compile>
     <Compile Include="OTPform.Designer.cs">
       <DependentUpon>OTPform.cs</DependentUpon>
+		</Compile>
 
 
     <Compile Include="COMPENG.cs">
