@@ -183,10 +183,5 @@
   <ItemGroup>
     <None Include="Resources\attendance-removebg-preview %281%292.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include=".accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
