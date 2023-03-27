@@ -35,5 +35,12 @@ namespace Student_Management_System
             this.Hide();
             module.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Home homeform = new Home();
+            this.Hide();
+            homeform.Show();
+        }
     }
 }

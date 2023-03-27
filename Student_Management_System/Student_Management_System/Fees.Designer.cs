@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.total_label = new System.Windows.Forms.Label();
+            this.paid_label = new System.Windows.Forms.Label();
+            this.topay_label = new System.Windows.Forms.Label();
+            this.proceed_button = new System.Windows.Forms.Button();
             this.back_button4 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Feeshead_label = new System.Windows.Forms.Label();
+            this.total_textBox = new System.Windows.Forms.TextBox();
+            this.paid_textBox = new System.Windows.Forms.TextBox();
+            this.topay_textBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // total_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 200);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 38);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Total Fees";
+            this.total_label.AutoSize = true;
+            this.total_label.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total_label.Location = new System.Drawing.Point(150, 200);
+            this.total_label.Name = "total_label";
+            this.total_label.Size = new System.Drawing.Size(185, 38);
+            this.total_label.TabIndex = 0;
+            this.total_label.Text = "Total Fees";
             // 
-            // label2
+            // paid_label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(150, 275);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(326, 38);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Fees you have paid";
+            this.paid_label.AutoSize = true;
+            this.paid_label.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.paid_label.Location = new System.Drawing.Point(150, 275);
+            this.paid_label.Name = "paid_label";
+            this.paid_label.Size = new System.Drawing.Size(326, 38);
+            this.paid_label.TabIndex = 1;
+            this.paid_label.Text = "Fees you have paid";
             // 
-            // label3
+            // topay_label
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(150, 350);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(291, 38);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Fees need to pay";
+            this.topay_label.AutoSize = true;
+            this.topay_label.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.topay_label.Location = new System.Drawing.Point(150, 350);
+            this.topay_label.Name = "topay_label";
+            this.topay_label.Size = new System.Drawing.Size(291, 38);
+            this.topay_label.TabIndex = 2;
+            this.topay_label.Text = "Fees need to pay";
             // 
-            // button1
+            // proceed_button
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(428, 458);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(300, 100);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Proceed to pay";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Paybtn_Click);
+            this.proceed_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.proceed_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.proceed_button.Location = new System.Drawing.Point(428, 458);
+            this.proceed_button.Name = "proceed_button";
+            this.proceed_button.Size = new System.Drawing.Size(300, 100);
+            this.proceed_button.TabIndex = 3;
+            this.proceed_button.Text = "Proceed to pay";
+            this.proceed_button.UseVisualStyleBackColor = false;
+            this.proceed_button.Click += new System.EventHandler(this.Paybtn_Click);
             // 
             // back_button4
             // 
@@ -94,45 +94,45 @@
             this.back_button4.UseVisualStyleBackColor = false;
             this.back_button4.Click += new System.EventHandler(this.Backbtn_Click);
             // 
-            // label7
+            // Feeshead_label
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(150, 120);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(462, 38);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Your Fees information are...";
+            this.Feeshead_label.AutoSize = true;
+            this.Feeshead_label.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Feeshead_label.Location = new System.Drawing.Point(150, 120);
+            this.Feeshead_label.Name = "Feeshead_label";
+            this.Feeshead_label.Size = new System.Drawing.Size(462, 38);
+            this.Feeshead_label.TabIndex = 14;
+            this.Feeshead_label.Text = "Your Fees information are...";
             // 
-            // textBox1
+            // total_textBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(500, 200);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(171, 38);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.total_textBox.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total_textBox.Location = new System.Drawing.Point(500, 200);
+            this.total_textBox.Name = "total_textBox";
+            this.total_textBox.ReadOnly = true;
+            this.total_textBox.Size = new System.Drawing.Size(171, 38);
+            this.total_textBox.TabIndex = 15;
+            this.total_textBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // paid_textBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(500, 275);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(171, 38);
-            this.textBox2.TabIndex = 16;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.paid_textBox.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.paid_textBox.Location = new System.Drawing.Point(500, 275);
+            this.paid_textBox.Name = "paid_textBox";
+            this.paid_textBox.ReadOnly = true;
+            this.paid_textBox.Size = new System.Drawing.Size(171, 38);
+            this.paid_textBox.TabIndex = 16;
+            this.paid_textBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox3
+            // topay_textBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(500, 350);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(171, 38);
-            this.textBox3.TabIndex = 17;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.topay_textBox.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.topay_textBox.Location = new System.Drawing.Point(500, 350);
+            this.topay_textBox.Name = "topay_textBox";
+            this.topay_textBox.ReadOnly = true;
+            this.topay_textBox.Size = new System.Drawing.Size(171, 38);
+            this.topay_textBox.TabIndex = 17;
+            this.topay_textBox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Fees
             // 
@@ -140,15 +140,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1182, 853);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.topay_textBox);
+            this.Controls.Add(this.paid_textBox);
+            this.Controls.Add(this.total_textBox);
+            this.Controls.Add(this.Feeshead_label);
             this.Controls.Add(this.back_button4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.proceed_button);
+            this.Controls.Add(this.topay_label);
+            this.Controls.Add(this.paid_label);
+            this.Controls.Add(this.total_label);
             this.Name = "Fees";
             this.Text = "Fees";
             this.ResumeLayout(false);
@@ -158,14 +158,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label total_label;
+        private System.Windows.Forms.Label paid_label;
+        private System.Windows.Forms.Label topay_label;
+        private System.Windows.Forms.Button proceed_button;
         private System.Windows.Forms.Button back_button4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label Feeshead_label;
+        private System.Windows.Forms.TextBox total_textBox;
+        private System.Windows.Forms.TextBox paid_textBox;
+        private System.Windows.Forms.TextBox topay_textBox;
     }
 }

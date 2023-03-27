@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.homehead_label = new System.Windows.Forms.Label();
+            this.logout_button = new System.Windows.Forms.Button();
             this.Fees_button = new System.Windows.Forms.Button();
             this.studentpro_button = new System.Windows.Forms.Button();
             this.attendance_button = new System.Windows.Forms.Button();
@@ -37,28 +37,28 @@
             this.course_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // homehead_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Font = new System.Drawing.Font("Calisto MT", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(339, 78);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(512, 74);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Learning Portal";
+            this.homehead_label.AutoSize = true;
+            this.homehead_label.BackColor = System.Drawing.SystemColors.Window;
+            this.homehead_label.Font = new System.Drawing.Font("Calisto MT", 40.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homehead_label.Location = new System.Drawing.Point(339, 78);
+            this.homehead_label.Name = "homehead_label";
+            this.homehead_label.Size = new System.Drawing.Size(512, 74);
+            this.homehead_label.TabIndex = 6;
+            this.homehead_label.Text = "Learning Portal";
             // 
-            // button6
+            // logout_button
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(960, 741);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(200, 100);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "LOG OUT";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.Logoutbtn_Click);
+            this.logout_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.logout_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_button.Location = new System.Drawing.Point(960, 741);
+            this.logout_button.Name = "logout_button";
+            this.logout_button.Size = new System.Drawing.Size(200, 100);
+            this.logout_button.TabIndex = 7;
+            this.logout_button.Text = "LOG OUT";
+            this.logout_button.UseVisualStyleBackColor = false;
+            this.logout_button.Click += new System.EventHandler(this.Logoutbtn_Click);
             // 
             // Fees_button
             // 
@@ -145,9 +145,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1182, 853);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.logout_button);
             this.Controls.Add(this.Fees_button);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.homehead_label);
             this.Controls.Add(this.studentpro_button);
             this.Controls.Add(this.attendance_button);
             this.Controls.Add(this.timetab_button);
@@ -166,8 +166,8 @@
         private System.Windows.Forms.Button timetab_button;
         private System.Windows.Forms.Button attendance_button;
         private System.Windows.Forms.Button Fees_button;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label homehead_label;
+        private System.Windows.Forms.Button logout_button;
         private System.Windows.Forms.Button studentpro_button;
     }
 }
