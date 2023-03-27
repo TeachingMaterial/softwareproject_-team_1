@@ -72,10 +72,10 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button1.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(428, 458);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(276, 85);
+            this.button1.Size = new System.Drawing.Size(300, 100);
             this.button1.TabIndex = 3;
             this.button1.Text = "Proceed to pay";
             this.button1.UseVisualStyleBackColor = false;
@@ -84,7 +84,7 @@
             // back_button4
             // 
             this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.back_button4.Font = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back_button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.back_button4.Location = new System.Drawing.Point(970, 741);
             this.back_button4.Name = "back_button4";

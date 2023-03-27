@@ -159,10 +159,10 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button5.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(942, 667);
+            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(946, 730);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(122, 43);
+            this.button5.Size = new System.Drawing.Size(200, 100);
             this.button5.TabIndex = 19;
             this.button5.Text = "Back";
             this.button5.UseVisualStyleBackColor = false;
@@ -173,7 +173,7 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // CE010
+            // COMPENG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -189,7 +189,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "CE010";
+            this.Name = "COMPENG";
             this.Text = "compeng";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
