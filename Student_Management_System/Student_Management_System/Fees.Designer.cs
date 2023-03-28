@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.total_label = new System.Windows.Forms.Label();
             this.paid_label = new System.Windows.Forms.Label();
             this.topay_label = new System.Windows.Forms.Label();
@@ -80,13 +81,16 @@
             this.proceed_button.Text = "Proceed to pay";
             this.proceed_button.UseVisualStyleBackColor = false;
             this.proceed_button.Click += new System.EventHandler(this.Paybtn_Click);
+
             // 
             // back_button4
             // 
             this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+
             this.back_button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.back_button4.Location = new System.Drawing.Point(970, 741);
+
             this.back_button4.Name = "back_button4";
             this.back_button4.Size = new System.Drawing.Size(200, 100);
             this.back_button4.TabIndex = 13;
@@ -94,6 +98,7 @@
             this.back_button4.UseVisualStyleBackColor = false;
             this.back_button4.Click += new System.EventHandler(this.Backbtn_Click);
             // 
+
             // Feeshead_label
             // 
             this.Feeshead_label.AutoSize = true;
@@ -133,12 +138,14 @@
             this.topay_textBox.Size = new System.Drawing.Size(171, 38);
             this.topay_textBox.TabIndex = 17;
             this.topay_textBox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+
             // 
             // Fees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
+
             this.ClientSize = new System.Drawing.Size(1182, 853);
             this.Controls.Add(this.topay_textBox);
             this.Controls.Add(this.paid_textBox);
@@ -149,6 +156,7 @@
             this.Controls.Add(this.topay_label);
             this.Controls.Add(this.paid_label);
             this.Controls.Add(this.total_label);
+
             this.Name = "Fees";
             this.Text = "Fees";
             this.ResumeLayout(false);
@@ -157,6 +165,7 @@
         }
 
         #endregion
+
 
         private System.Windows.Forms.Label total_label;
         private System.Windows.Forms.Label paid_label;
@@ -167,5 +176,6 @@
         private System.Windows.Forms.TextBox total_textBox;
         private System.Windows.Forms.TextBox paid_textBox;
         private System.Windows.Forms.TextBox topay_textBox;
+
     }
 }

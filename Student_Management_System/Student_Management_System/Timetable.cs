@@ -7,17 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using System.Data.OleDb;
+
 
 namespace Student_Management_System
 {
     public partial class Timetable : Form
     {
+
         private OleDbConnection connection = new OleDbConnection();
         public Timetable()
         {
             InitializeComponent();
             connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Asus\Downloads\Timetable.accdb;Persist Security Info=False;";
+
         }
 
         private void Backbtn_Click(object sender, EventArgs e)
@@ -26,6 +30,7 @@ namespace Student_Management_System
             this.Hide();
             homeform.Show();
         }
+
 
         private void show_btn_Click(object sender, EventArgs e)
         {
@@ -51,5 +56,6 @@ namespace Student_Management_System
             }
 
         }
+
     }
 }
