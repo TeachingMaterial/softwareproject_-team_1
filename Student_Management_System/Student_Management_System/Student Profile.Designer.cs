@@ -39,10 +39,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.back_button4 = new System.Windows.Forms.Button();
+            this.back_button5 = new System.Windows.Forms.Button();
             this.id_label = new System.Windows.Forms.Label();
             this.fname_label = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.student_pictureBox = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -54,7 +54,7 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.student_pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -191,18 +191,18 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Level of Study";
             // 
-            // back_button4
+            // back_button5
             // 
-            this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.back_button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.back_button4.Location = new System.Drawing.Point(975, 650);
-            this.back_button4.Name = "back_button4";
-            this.back_button4.Size = new System.Drawing.Size(200, 100);
-            this.back_button4.TabIndex = 12;
-            this.back_button4.Text = "Back";
-            this.back_button4.UseVisualStyleBackColor = false;
-            this.back_button4.Click += new System.EventHandler(this.Backbtn_Click);
+            this.back_button5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.back_button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back_button5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.back_button5.Location = new System.Drawing.Point(975, 650);
+            this.back_button5.Name = "back_button5";
+            this.back_button5.Size = new System.Drawing.Size(200, 100);
+            this.back_button5.TabIndex = 12;
+            this.back_button5.Text = "Back";
+            this.back_button5.UseVisualStyleBackColor = false;
+            this.back_button5.Click += new System.EventHandler(this.Backbtn_Click);
             // 
             // id_label
             // 
@@ -224,15 +224,15 @@
             this.fname_label.Size = new System.Drawing.Size(0, 35);
             this.fname_label.TabIndex = 14;
             // 
-            // pictureBox1
+            // student_pictureBox
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(45, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 225);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.student_pictureBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.student_pictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.student_pictureBox.Location = new System.Drawing.Point(45, 30);
+            this.student_pictureBox.Name = "student_pictureBox";
+            this.student_pictureBox.Size = new System.Drawing.Size(250, 225);
+            this.student_pictureBox.TabIndex = 0;
+            this.student_pictureBox.TabStop = false;
             // 
             // textBox1
             // 
@@ -353,7 +353,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.fname_label);
             this.Controls.Add(this.id_label);
-            this.Controls.Add(this.back_button4);
+            this.Controls.Add(this.back_button5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label11);
@@ -365,12 +365,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.student_pictureBox);
             this.Name = "Student_Profile";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 1);
             this.Text = "Student Profile";
             this.Load += new System.EventHandler(this.Student_Profile_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.student_pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -378,7 +378,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox student_pictureBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -390,7 +390,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button back_button4;
+        private System.Windows.Forms.Button back_button5;
         private System.Windows.Forms.Label id_label;
         private System.Windows.Forms.Label fname_label;
         private System.Windows.Forms.TextBox textBox1;
