@@ -123,7 +123,7 @@
             this.timetab_button.BackgroundImage = global::Student_Management_System.Properties.Resources.Timetable_removebg_preview;
             this.timetab_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.timetab_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<
+
             this.timetab_button.Location = new System.Drawing.Point(449, 244);
             this.timetab_button.Name = "timetab_button";
             this.timetab_button.Size = new System.Drawing.Size(300, 150);
