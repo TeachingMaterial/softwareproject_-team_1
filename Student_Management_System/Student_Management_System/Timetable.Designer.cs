@@ -28,96 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+
+            this.TimetableHead_label = new System.Windows.Forms.Label();
+            this.Time_dataGridView = new System.Windows.Forms.DataGridView();
+
             this.back_button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+
+            this.show_btn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.Time_dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // TimetableHead_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(80, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(428, 35);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Your Timetable information is....";
+            this.TimetableHead_label.AutoSize = true;
+            this.TimetableHead_label.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimetableHead_label.Location = new System.Drawing.Point(80, 90);
+            this.TimetableHead_label.Name = "TimetableHead_label";
+            this.TimetableHead_label.Size = new System.Drawing.Size(428, 35);
+            this.TimetableHead_label.TabIndex = 0;
+            this.TimetableHead_label.Text = "Your Timetable information is....";
             // 
-            // dataGridView1
+            // Time_dataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(100, 140);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(991, 213);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Time";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Monday";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Tuesday";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Wednesday";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Thursday";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 125;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Friday";
-            this.Column6.MinimumWidth = 6;
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 125;
+            this.Time_dataGridView.AllowUserToAddRows = false;
+            this.Time_dataGridView.AllowUserToDeleteRows = false;
+            this.Time_dataGridView.AllowUserToResizeColumns = false;
+            this.Time_dataGridView.AllowUserToResizeRows = false;
+            this.Time_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Time_dataGridView.Location = new System.Drawing.Point(86, 141);
+            this.Time_dataGridView.Name = "Time_dataGridView";
+            this.Time_dataGridView.ReadOnly = true;
+            this.Time_dataGridView.RowHeadersWidth = 51;
+            this.Time_dataGridView.RowTemplate.Height = 24;
+            this.Time_dataGridView.Size = new System.Drawing.Size(991, 213);
+            this.Time_dataGridView.TabIndex = 1;
+
             // 
             // back_button4
             // 
             this.back_button4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.back_button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.back_button4.Location = new System.Drawing.Point(970, 641);
+
+            this.back_button4.Location = new System.Drawing.Point(970, 741);
+
             this.back_button4.Name = "back_button4";
             this.back_button4.Size = new System.Drawing.Size(200, 100);
             this.back_button4.TabIndex = 13;
@@ -129,7 +86,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(80, 600);
+
+            this.label2.Location = new System.Drawing.Point(80, 639);
+
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(270, 35);
             this.label2.TabIndex = 14;
@@ -137,11 +96,13 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(100, 640);
+
+            this.textBox1.Location = new System.Drawing.Point(86, 687);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(749, 100);
+            this.textBox1.Size = new System.Drawing.Size(800, 150);
+
             this.textBox1.TabIndex = 15;
             // 
             // dateTimePicker1
@@ -151,21 +112,39 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(273, 22);
             this.dateTimePicker1.TabIndex = 16;
             // 
+
+            // show_btn
+            // 
+            this.show_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.show_btn.Location = new System.Drawing.Point(570, 80);
+            this.show_btn.Name = "show_btn";
+            this.show_btn.Size = new System.Drawing.Size(250, 46);
+            this.show_btn.TabIndex = 19;
+            this.show_btn.Text = "View My Timetable";
+            this.show_btn.UseVisualStyleBackColor = true;
+            this.show_btn.Click += new System.EventHandler(this.show_btn_Click);
+            // 
+
             // Timetable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1182, 753);
+
+            this.ClientSize = new System.Drawing.Size(1182, 853);
+            this.Controls.Add(this.show_btn);
+
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.back_button4);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
+
+            this.Controls.Add(this.Time_dataGridView);
+            this.Controls.Add(this.TimetableHead_label);
             this.Name = "Timetable";
             this.Text = "Timetable";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Time_dataGridView)).EndInit();
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,17 +152,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+
+        private System.Windows.Forms.Label TimetableHead_label;
+        private System.Windows.Forms.DataGridView Time_dataGridView;
         private System.Windows.Forms.Button back_button4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button show_btn;
+
     }
 }
