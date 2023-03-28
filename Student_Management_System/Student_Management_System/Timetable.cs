@@ -40,7 +40,7 @@ namespace Student_Management_System
                 OleDbDataAdapter da = new OleDbDataAdapter(command);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
-                dataGridView1.DataSource = dt;
+                Time_dataGridView.DataSource = dt;
 
                 connection.Close();
             }

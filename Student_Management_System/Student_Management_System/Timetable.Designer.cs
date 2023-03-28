@@ -28,35 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.TimetableHead_label = new System.Windows.Forms.Label();
+            this.Time_dataGridView = new System.Windows.Forms.DataGridView();
             this.back_button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.show_btn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Time_dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // TimetableHead_label
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(80, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(428, 35);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Your Timetable information is....";
+            this.TimetableHead_label.AutoSize = true;
+            this.TimetableHead_label.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimetableHead_label.Location = new System.Drawing.Point(80, 90);
+            this.TimetableHead_label.Name = "TimetableHead_label";
+            this.TimetableHead_label.Size = new System.Drawing.Size(428, 35);
+            this.TimetableHead_label.TabIndex = 0;
+            this.TimetableHead_label.Text = "Your Timetable information is....";
             // 
-            // dataGridView1
+            // Time_dataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(86, 141);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(991, 213);
-            this.dataGridView1.TabIndex = 1;
+            this.Time_dataGridView.AllowUserToAddRows = false;
+            this.Time_dataGridView.AllowUserToDeleteRows = false;
+            this.Time_dataGridView.AllowUserToResizeColumns = false;
+            this.Time_dataGridView.AllowUserToResizeRows = false;
+            this.Time_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Time_dataGridView.Location = new System.Drawing.Point(86, 141);
+            this.Time_dataGridView.Name = "Time_dataGridView";
+            this.Time_dataGridView.ReadOnly = true;
+            this.Time_dataGridView.RowHeadersWidth = 51;
+            this.Time_dataGridView.RowTemplate.Height = 24;
+            this.Time_dataGridView.Size = new System.Drawing.Size(991, 213);
+            this.Time_dataGridView.TabIndex = 1;
             // 
             // back_button4
             // 
@@ -102,9 +107,9 @@
             this.show_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.show_btn.Location = new System.Drawing.Point(570, 80);
             this.show_btn.Name = "show_btn";
-            this.show_btn.Size = new System.Drawing.Size(202, 46);
+            this.show_btn.Size = new System.Drawing.Size(250, 46);
             this.show_btn.TabIndex = 19;
-            this.show_btn.Text = "Show Timetable";
+            this.show_btn.Text = "View My Timetable";
             this.show_btn.UseVisualStyleBackColor = true;
             this.show_btn.Click += new System.EventHandler(this.show_btn_Click);
             // 
@@ -119,11 +124,11 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.back_button4);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Time_dataGridView);
+            this.Controls.Add(this.TimetableHead_label);
             this.Name = "Timetable";
             this.Text = "Timetable";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Time_dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,8 +136,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label TimetableHead_label;
+        private System.Windows.Forms.DataGridView Time_dataGridView;
         private System.Windows.Forms.Button back_button4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
